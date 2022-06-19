@@ -1,4 +1,9 @@
 /*Element Selectors*/
+
+* {
+    border: 2px solid red;
+  }
+
 html {
     background-color: #121212;
     color: darkgrey;
@@ -8,7 +13,7 @@ html {
 }
 
 div {
-    margin: auto;
+    margin: 0 auto;
     width: fit-content;
 }
 
@@ -19,6 +24,11 @@ a:link, a:visited{
 /*Class Selectors*/
 .ingredients ul, .directions ol {
     text-align: left;
+    width: 650px;
+}
+
+.ingredients ul {
+    width: fit-content;
 }
 
 /*ID Selectors*/
